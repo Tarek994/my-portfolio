@@ -16,7 +16,9 @@ const Navbar = () => {
             xs={12}
             md={12}
             maxWidth={'xl'}
-            sx={{ p: 2, backgroundColor: '#e5e5e5', }}>
+            sx={{ p: 2, backgroundColor: '#bde0fe',
+            marginBottom:'1rem',
+            }}>
 
             <Grid xs={12} md={11} lg={11}
                 sx={{
