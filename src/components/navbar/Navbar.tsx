@@ -27,7 +27,8 @@ const Navbar = () => {
                     justifyItems: 'center',
                     alignItems: 'center',
                     alignContent: "center",
-                    margin: 'auto'
+                    margin: 'auto',
+                    padding:'0rem 1rem',
                 }}
                 maxWidth={'lg'} >
 
