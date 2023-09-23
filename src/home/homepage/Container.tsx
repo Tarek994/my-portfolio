@@ -1,5 +1,6 @@
 import React from 'react'
 import Grid from "@mui/material/Unstable_Grid2";
+import Hero from '../../components/navbar/Hero/Hero';
 
 const Container = () => {
   return (
@@ -9,7 +10,7 @@ const Container = () => {
       <Grid container xs={11} sm={11} md={11} lg={11}
         sx={{ maxWidth: 'lg', margin: 'auto', backgroundColor: '#bfe', padding: '1rem' }}
       >
-
+          <Hero/>
 
       </Grid>
     </Grid>
