@@ -8,9 +8,9 @@ const Container = () => {
       sx={{ backgroundColor: '#bde0fe', }}
     >
       <Grid container xs={11} sm={11} md={11} lg={11}
-        sx={{ maxWidth: 'lg', margin: 'auto', backgroundColor: '#bfe', padding: '1rem' }}
+        sx={{ maxWidth: 'lg', margin: 'auto', padding: '0.5rem' }}
       >
-          <Hero/>
+        <Hero />
 
       </Grid>
     </Grid>
