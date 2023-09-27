@@ -15,8 +15,8 @@ const Navbar = () => {
             container
             xs={12}
             md={12}
-            maxWidth={'xl'}
-            sx={{ p: 2, backgroundColor: '#bde0fe',
+            maxWidth={'100%'}
+            sx={{ p: 2, backgroundColor: '#caf0f8',
             marginBottom:'1rem',
             }}>
 
@@ -55,16 +55,22 @@ const Navbar = () => {
                     justifyItems="center"
                     alignContent="center"
                 >
-                    <div>
+                    <Grid lg={6} sm={6}>
                         <Tabs
                             onChange={handleChange}
                             aria-label="basic tabs example"
                         >
-                            <LinkTab label="About" href='/#' />
-                            <LinkTab label="Services" href='/#/services' />
-                            <LinkTab label="Projects" href='/#/projects' />
+                            <LinkTab
+                            style={{ backgroundColor: '#fff', borderRadius: '10px',marginRight:'5px' }}
+                            label="About" href='/#' />
+                            <LinkTab
+                                  style={{ backgroundColor: '#fff', borderRadius: '10px',marginRight:'5px'  }}
+                            label="Services" href='/#/services' />
+                            <LinkTab 
+                                  style={{ backgroundColor: '#fff', borderRadius: '10px' }}
+                            label="Projects" href='/#/projects' />
                         </Tabs>
-                    </div>
+                    </Grid>
                 </Grid>
             </Grid>
         </Grid >
