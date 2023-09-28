@@ -18,6 +18,9 @@ const Navbar = () => {
             maxWidth={'100%'}
             sx={{ p: 2, backgroundColor: '#caf0f8',
             marginBottom:'1rem',
+            display:'flex',
+            justifyContent:'center',
+            textAlign:'center',
             }}>
 
             <Grid xs={12} md={11} lg={11}
