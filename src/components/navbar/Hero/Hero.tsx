@@ -13,10 +13,10 @@ const Hero = () => {
       display:'flex',
     }}
     >
-      <Grid container xs={12} sm={12} md={6} lg={6} sx={{display:'flex', flexDirection:'column'}}>
+      <Grid container xs={12} sm={12} md={6} lg={6} sx={{display:'flex', flexDirection:'column', marginTop:'1rem'}}>
           <Typography variant="h4"> Hello World I'm Tarek</Typography>
-          <Typography variant='h6'> Front End Developer</Typography>
-          <Grid><Button variant="contained">Projects</Button></Grid>
+          <Typography variant='h6' sx={{marginTop:'1rem'}}> Front End Developer</Typography>
+          <Grid><Button variant="contained" sx={{marginTop:'1rem'}}>Projects</Button></Grid>
       </Grid>
 
       <Grid container xs={12} sm={12} md={6} lg={6}>
