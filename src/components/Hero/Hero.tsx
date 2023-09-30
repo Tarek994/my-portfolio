@@ -1,5 +1,6 @@
 import { Grid, Typography } from '@mui/material';
 import Button from '@mui/material/Button';
+import hero from './assets/hero.svg'
 
 
 const Hero = () => {
@@ -20,7 +21,7 @@ const Hero = () => {
       </Grid>
 
       <Grid container xs={12} sm={12} md={12} lg={6} sx={{ display: 'flex', marginTop: '1rem', padding: '1rem' }}>
-        <img src="" alt="" />
+        <img style={{ width:"100%" }} src={hero} alt="" />
       </Grid>
 
 
