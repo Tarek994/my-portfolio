@@ -12,6 +12,7 @@ const Hero = () => {
         width: '100%',
         backgroundColor: '#fff',
         display: 'flex',
+        margin:'1rem 0rem'
       }}
     >
       <Grid container xs={12} sm={12} md={12} lg={6} sx={{ display: 'flex', flexDirection: 'column', marginTop: '1rem', padding: '1rem' }}>
