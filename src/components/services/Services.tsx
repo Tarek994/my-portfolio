@@ -19,7 +19,6 @@ const Services = () => {
 
 
             <Grid xs={12} sm={12} md={6} lg={6} sx={{display:'flex',textAlign:'center',justifyContent:'center',alignContent:'center'}}>
-                <Skills/>
             </Grid>
 
 
