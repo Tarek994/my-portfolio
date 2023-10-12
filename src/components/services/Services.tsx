@@ -1,5 +1,4 @@
 import { Grid } from '@mui/material';
-import Skills from "../skills/Skills"
 
 const Services = () => {
   
