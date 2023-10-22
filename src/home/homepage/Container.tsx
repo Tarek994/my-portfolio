@@ -2,6 +2,7 @@ import React from 'react'
 import Grid from "@mui/material/Unstable_Grid2";
 import Hero from '../../components/Hero/Hero';
 import Services from '../../components/services/Services';
+import Skills from "../../components/skills/Skills"
 
 const Container = () => {
   return (
@@ -13,6 +14,7 @@ const Container = () => {
       >
          <Hero />
          <Services/>
+         <Skills/>
 
       </Grid>
     </Grid>
