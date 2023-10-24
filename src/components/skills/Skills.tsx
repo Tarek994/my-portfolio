@@ -26,14 +26,14 @@ const Skills = () => {
         component="img"
         alt="green iguana"
         height="140"
-        image={html}
+        image={css}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          HTML
+          CSS/3
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Proficient in HTML for creating structured and responsive web pages.
+        Proficient in CSS for designing visually appealing and responsive web interfaces.
         </Typography>
       </CardContent>
     </Card>
