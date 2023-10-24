@@ -20,8 +20,24 @@ const Skills = () => {
       margin:'1rem 0rem'
     }}
   >
-    <Grid container xs={12} sm={12} md={12} lg={12} sx={{ display: 'flex', flexDirection: 'column', marginTop: '1rem', padding: '1rem' }}>
+    <Grid container xs={12} sm={12} md={12} lg={12} sx={{ display: 'flex', marginTop: '1rem', padding: '1rem' }}>
     <Card sx={{ maxWidth: 250 }}>
+      <CardMedia
+        component="img"
+        alt="green iguana"
+        height="140"
+        image={html}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          HTML
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Proficient in HTML for creating structured and responsive web pages.
+        </Typography>
+      </CardContent>
+    </Card>
+    <Card sx={{ maxWidth: 250,margin:"0.5rem" }}>
       <CardMedia
         component="img"
         alt="green iguana"
