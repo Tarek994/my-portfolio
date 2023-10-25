@@ -6,6 +6,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import css from "./assets/css.png"
 import html from "./assets/html.png"
+import javascript from "./assets/javascript.png"
 
 
 const Skills = () => {
@@ -21,7 +22,24 @@ const Skills = () => {
     }}
   >
     <Grid container xs={12} sm={12} md={12} lg={12} sx={{ display: 'flex', marginTop: '1rem', padding: '1rem' }}>
+
     <Card sx={{ maxWidth: 250,margin:"0.5rem" }}>
+      <CardMedia
+        component="img"
+        alt="green iguana"
+        height="140"
+        image={html}
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+          HTML
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+        Proficient in HTML for creating structured and responsive web pages.
+        </Typography>
+      </CardContent>
+    </Card>
+        <Card sx={{ maxWidth: 250,margin:"0.5rem" }}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -42,15 +60,14 @@ const Skills = () => {
         component="img"
         alt="green iguana"
         height="140"
-        image={html}
+        image={javascript}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-          HTML
+          Javascript
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        Proficient in HTML for creating structured and responsive web pages.
-        </Typography>
+ Proficient in using JS to enhance interactivity and functionality on web applications.        </Typography>
       </CardContent>
     </Card>
     </Grid>
