@@ -7,14 +7,14 @@ import Skills from "../../components/skills/Skills"
 const Container = () => {
   return (
     <Grid container xs={12} md={12} lg={12}
-      sx={{ backgroundColor: '#caf0f8',padding:'1rem 0rem' }}
+      sx={{ backgroundColor: '#caf0f8', padding: '1rem 0rem' }}
     >
       <Grid container xs={11} sm={11} md={11} lg={11}
         sx={{ maxWidth: 'lg', margin: 'auto' }}
       >
-         <Hero />
-         <Services/>
-         <Skills/>
+        <Hero />
+
+        <Skills />
 
       </Grid>
     </Grid>
