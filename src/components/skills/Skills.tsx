@@ -7,6 +7,7 @@ import Typography from '@mui/material/Typography';
 import css from "./assets/css.png"
 import html from "./assets/html.png"
 import javascript from "./assets/javascript.png"
+import jquery from "./assets/jquery.jpg"
 
 
 const Skills = () => {
@@ -66,6 +67,21 @@ const Skills = () => {
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
               Javascript
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Proficient in using JS to enhance interactivity and functionality on web applications.        </Typography>
+          </CardContent>
+        </Card>
+        <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
+          <CardMedia
+            component="img"
+            alt="green iguana"
+            height="140"
+            image={jquery}
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+            jquery
             </Typography>
             <Typography variant="body2" color="text.secondary">
               Proficient in using JS to enhance interactivity and functionality on web applications.        </Typography>
