@@ -8,6 +8,7 @@ import css from "./assets/css.png"
 import html from "./assets/html.png"
 import javascript from "./assets/javascript.png"
 import jquery from "./assets/jquery.jpg"
+import Bootstrap from "./assets/Bootstrap.jpg"
 
 
 const Skills = () => {
@@ -22,7 +23,7 @@ const Skills = () => {
         margin: '1rem 0rem'
       }}
     >
-      <Grid container xs={12} sm={12} md={12} lg={12} sx={{ display: 'flex', marginTop: '1rem', padding: '1rem' }}>
+      <Grid container xs={12} sm={12} md={12} lg={12} sx={{ display: 'flex', marginTop: '1rem', padding: '1rem', justifyContent:'center'  }}>
 
         <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
           <CardMedia
@@ -57,6 +58,7 @@ const Skills = () => {
             </Typography>
           </CardContent>
         </Card>
+
         <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
           <CardMedia
             component="img"
@@ -72,6 +74,7 @@ const Skills = () => {
               Proficient in using JS to enhance interactivity and functionality on web applications.        </Typography>
           </CardContent>
         </Card>
+
         <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
           <CardMedia
             component="img"
@@ -87,6 +90,24 @@ const Skills = () => {
               Proficient in using JS to enhance interactivity and functionality on web applications.        </Typography>
           </CardContent>
         </Card>
+
+        <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
+          <CardMedia
+            component="img"
+            alt="green iguana"
+            height="140"
+            image={Bootstrap}
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+            jquery
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+            Experienced in harnessing Bootstrap to streamline and enhance the visual appeal and responsiveness of web applications.
+            </Typography>
+          </CardContent>
+        </Card>
+        
       </Grid>
     </Grid>
   )
