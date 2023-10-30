@@ -4,9 +4,9 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import css from "./assets/css.png"
-import html from "./assets/html.png"
-import javascript from "./assets/javascript.png"
+import css from "./assets/btm.avif"
+import html from "./assets/htmlcss.png"
+import javascript from "./assets/jt.png"
 import jquery from "./assets/jquery.jpg"
 import Bootstrap from "./assets/Bootstrap.jpg"
 
@@ -23,8 +23,15 @@ const Skills = () => {
         margin: '1rem 0rem'
       }}
     >
-      <Grid container xs={12} sm={12} md={12} lg={12} sx={{ display: 'flex', marginTop: '1rem', padding: '1rem', justifyContent:'center'  }}>
+      <Grid sx={{padding:"1rem",margin:"auto" ,display:"flex", justifyContent:"center", flexDirection:"column", textAlign:"center" }}>
+        <h3 style={{}}>
+        Skill Set and Technology Focus</h3>
+        <Typography> Beginning the quest, merging skills from design to delivery, with a keen focus on front-end innovations.</Typography>
+      </Grid>
+      <Grid container xs={12} sm={12} md={12} lg={12} sx={{ display: 'flex', marginTop: '1rem', padding: '1rem', justifyContent:'center' }}>
+        <Typography>
 
+        </Typography>
         <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
           <CardMedia
             component="img"
@@ -37,7 +44,7 @@ const Skills = () => {
               HTML
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Proficient in HTML for creating structured and responsive web pages.
+            Proficient in HTML and CSS for crafting structured, responsive web pages and ensuring seamless user experiences.
             </Typography>
           </CardContent>
         </Card>
@@ -51,10 +58,10 @@ const Skills = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              CSS/3
+            FE Frameworks Or Libraries.
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Proficient in CSS for designing visually appealing and responsive web interfaces.
+            Skilled in using CSS, Bootstrap, Tailwind, and Material UI to design visually appealing and responsive web interfaces.
             </Typography>
           </CardContent>
         </Card>
@@ -71,43 +78,11 @@ const Skills = () => {
               Javascript
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Proficient in using JS to enhance interactivity and functionality on web applications.        </Typography>
+            Experienced in employing JavaScript, TypeScript, jQuery, and other tools to elevate interactivity and functionality within web applications.
+            </Typography>
           </CardContent>
         </Card>
 
-        <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
-          <CardMedia
-            component="img"
-            alt="green iguana"
-            height="140"
-            image={jquery}
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-            jquery
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Proficient in using JS to enhance interactivity and functionality on web applications.        </Typography>
-          </CardContent>
-        </Card>
-
-        <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
-          <CardMedia
-            component="img"
-            alt="green iguana"
-            height="140"
-            image={Bootstrap}
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-            jquery
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-            Experienced in harnessing Bootstrap to streamline and enhance the visual appeal and responsiveness of web applications.
-            </Typography>
-          </CardContent>
-        </Card>
-        
       </Grid>
     </Grid>
   )
