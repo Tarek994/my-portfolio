@@ -2,13 +2,10 @@ import { Grid } from "@mui/material"
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import css from "./assets/btm.avif"
 import html from "./assets/htmlcss.png"
 import javascript from "./assets/jt.png"
-import jquery from "./assets/jquery.jpg"
-import Bootstrap from "./assets/Bootstrap.jpg"
 
 
 const Skills = () => {
