@@ -24,11 +24,13 @@ const Skills = () => {
         <h3 style={{}}>
         Skill Set and Technology Focus</h3>
         <Typography> Beginning the quest, merging skills from design to delivery, with a keen focus on front-end innovations.</Typography>
-      </Grid>
-      <Grid container xs={12} sm={12} md={12} lg={12} sx={{ display: 'flex', marginTop: '1rem', padding: '1rem', justifyContent:'center' }}>
-        <Typography>
-
+        <Typography sx={{fontSize:"20px",marginTop:"2rem"}}>
+          Front End Skills
         </Typography>
+      </Grid>
+      
+      <Grid container xs={12} sm={12} md={12} lg={12} sx={{ display: 'flex', marginTop: '1rem', padding: '1rem', justifyContent:'center' }}>
+
         <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
           <CardMedia
             component="img"
