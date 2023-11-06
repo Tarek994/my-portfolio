@@ -81,7 +81,6 @@ const Skills = () => {
             </Typography>
           </CardContent>
         </Card>
-
       </Grid>
     </Grid>
   )
