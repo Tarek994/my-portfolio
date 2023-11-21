@@ -23,6 +23,9 @@ const Skills = () => {
       }}
     >
       <Grid container xs={12} sm={12} md={12} lg={12} sx={{ display: 'flex', marginTop: '1rem', padding: '1rem' }}>
+        <Typography variant="h4" fontWeight={400}>Programing Skills</Typography>
+      </Grid>
+      <Grid container xs={12} sm={12} md={12} lg={12} sx={{ display: 'flex', margin: '1rem 0rem', padding: '1rem' }}>
 
         <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
           <CardMedia
