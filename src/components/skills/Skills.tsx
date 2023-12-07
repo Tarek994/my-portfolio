@@ -97,7 +97,4 @@ const Skills = () => {
     </Grid>
   )
 }
-
-
-
 export default Skills
