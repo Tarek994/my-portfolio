@@ -2,12 +2,19 @@ import { Grid } from "@mui/material";
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import css from "./assets/css.png"
 import html from "./assets/html.png"
 import javascript from "./assets/javascript.png"
 import jquery from "./assets/jquery.jpg"
+import git from "./assets/git-github.png"
+import react from "./assets/react.png"
+import agile from "./assets/agile.png"
+import wordpress from "./assets/wordpress.png"
+import soft from "./assets/soft.jpg"
+
+
+
 
 
 const Skills = () => {
