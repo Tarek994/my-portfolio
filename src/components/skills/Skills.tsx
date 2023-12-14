@@ -60,10 +60,10 @@ const Skills = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              CSS/3
+              Design and Style
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Proficient in CSS for designing visually appealing and responsive web interfaces.
+              Accomplished in CSS and adept at utilizing leading design frameworks, including Bootstrap, Tailwind CSS, and Material UI, to create visually appealing and responsive.
             </Typography>
           </CardContent>
         </Card>
