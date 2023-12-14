@@ -94,7 +94,37 @@ const Skills = () => {
               jquery
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Proficient in using JS to enhance interactivity and functionality on web applications.        </Typography>
+              Skilled in utilizing jQuery to enhance interactivity and functionality on web applications.        </Typography>
+          </CardContent>
+        </Card>
+        <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
+          <CardMedia
+            component="img"
+            alt="green iguana"
+            height="140"
+            image={react}
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              ReactJS
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Proficient in <b>ReactJS</b> for dynamic user interfaces and experienced in state management.        </Typography>
+          </CardContent>
+        </Card>
+        <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
+          <CardMedia
+            component="img"
+            alt="green iguana"
+            height="140"
+            image={wordpress}
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              CMS Software
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Skilled in <b>WordPress</b>, specializing in effective content management and dynamic website creation.        </Typography>
           </CardContent>
         </Card>
       </Grid>
