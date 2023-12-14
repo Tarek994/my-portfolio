@@ -174,7 +174,7 @@ const Skills = () => {
         <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
           <CardMedia
             component="img"
-            alt="CSS"
+            alt="softskill"
             height="140"
             image={soft}
           />
