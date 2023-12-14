@@ -128,59 +128,67 @@ const Skills = () => {
           </CardContent>
         </Card>
       </Grid>
+
+      {/* ANOTHER SKILLS */}
       <Grid container xs={12} sm={12} md={12} lg={12} sx={{ display: 'flex', marginTop: '1rem', padding: '1rem' }}>
-        <Typography variant="h4" fontWeight={400}>Another Skills</Typography>
+        <Typography variant="h4" fontWeight={500}>Another Skills</Typography>
       </Grid>
+
+
+
       <Grid container xs={12} sm={12} md={12} lg={12} sx={{ display: 'flex', margin: '1rem 0rem', padding: '1rem' }}>
 
 
-
+        <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
+          <CardMedia
+            component="img"
+            alt="green iguana"
+            height="140"
+            image={git}
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="div">
+              Version Control
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              Experienced in leveraging Git and GitHub to streamline collaborative development processes.
+            </Typography>
+          </CardContent>
+        </Card>
         <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
           <CardMedia
             component="img"
             alt="CSS"
             height="140"
-            image={css}
+            image={agile}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              CSS/3
+              Project Management
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Proficient in CSS for designing visually appealing and responsive web interfaces.
+              Experienced in <b>Agile</b> project management with a focus on <b>Jira</b> and <b>GitHub</b> for efficient task tracking, issue resolution, and streamlined collaboration within software development teams.
             </Typography>
           </CardContent>
         </Card>
         <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
           <CardMedia
             component="img"
-            alt="green iguana"
+            alt="CSS"
             height="140"
-            image={javascript}
+            image={soft}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Javascript
+              Soft Skills
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Proficient in using JS to enhance interactivity and functionality on web applications.        </Typography>
-          </CardContent>
-        </Card>
-        <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
-          <CardMedia
-            component="img"
-            alt="green iguana"
-            height="140"
-            image={jquery}
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
-              jquery
+              Versatile professional with strong soft skills, adept in Office applications, ERP systems, and effective communication. Proven ability to seamlessly navigate diverse tasks, fostering collaboration and enhancing operational efficiency.
             </Typography>
-            <Typography variant="body2" color="text.secondary">
-              Proficient in using JS to enhance interactivity and functionality on web applications.        </Typography>
           </CardContent>
         </Card>
+
+
       </Grid>
     </Grid>
   )
