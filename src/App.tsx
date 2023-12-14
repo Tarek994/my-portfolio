@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import "./App.css";
+import { styled } from "@mui/material/styles";
+import Grid from "@mui/material/Unstable_Grid2";
+import Navbar from "./components/navbar/Navbar";
+import Container from "./home/homepage/Container";
 
 function App() {
+  const MainGrid = styled(Grid)(({ theme }) => ({
+    backgroundColor: `#fff`,
+  }));
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <MainGrid justifyContent="center" xs={12} container maxWidth={"100%"}>
+        <Navbar />
+        <Grid spacing={2} xs={12} container>
+          <Routes>
+            <Route path="/" element={<Container />} />
+          </Routes>
+        </Grid>
+      </MainGrid>
+    </Router>
   );
 }
-
 export default App;
