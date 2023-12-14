@@ -76,10 +76,10 @@ const Skills = () => {
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Javascript
+              Javascript with Frame Work
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Proficient in using JS to enhance interactivity and functionality on web applications.        </Typography>
+              Masterful in  <b>JavaScript</b> and <b>Typescript</b> to enhance web application interactivity.        </Typography>
           </CardContent>
         </Card>
         <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
