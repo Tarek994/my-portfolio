@@ -25,9 +25,10 @@ const Skills = () => {
         padding: "1rem",
         borderRadius: "15px",
         width: "100%",
-        backgroundColor: "#fff",
+        backgroundColor: "#d3d3d3",
         display: "flex",
         margin: "1rem 0rem",
+
       }}
     >
       <Grid
@@ -48,7 +49,7 @@ const Skills = () => {
         sm={12}
         md={12}
         lg={12}
-        sx={{ display: "flex", margin: "1rem 0rem", padding: "1rem" }}
+        sx={{ display: "flex", margin: "1rem 0rem", padding: "1rem", justifyContent: "center" }}
       >
         <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
           <CardMedia
@@ -171,7 +172,7 @@ const Skills = () => {
         sm={12}
         md={12}
         lg={12}
-        sx={{ display: "flex", margin: "1rem 0rem", padding: "1rem" }}
+        sx={{ display: "flex", margin: "1rem 0rem", padding: "1rem", justifyContent: "center" }}
       >
         <Card sx={{ maxWidth: 250, margin: "0.5rem" }}>
           <CardMedia component="img" alt="git" height="140" image={git} />
