@@ -16,7 +16,7 @@ const Navbar = () => {
             xs={12}
             md={12}
             maxWidth={'100%'}
-            sx={{ p: 2, backgroundColor: '#caf0f8',
+            sx={{ p: 2, backgroundColor: '#003049',
             marginBottom:'1rem',
             display:'flex',
             justifyContent:'center',
