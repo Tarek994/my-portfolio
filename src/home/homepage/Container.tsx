@@ -1,7 +1,7 @@
 import React from 'react'
 import Grid from "@mui/material/Unstable_Grid2";
 import Hero from '../../components/Hero/Hero';
-import Services from '../../components/services/Services';
+import Service from '../../components/service/Services';
 import Skills from "../../components/skills/Skills"
 
 const Container = () => {
@@ -13,7 +13,7 @@ const Container = () => {
         sx={{ maxWidth: 'lg', margin: 'auto' }}
       >
         <Hero />
-
+        <Service/>
         <Skills />
 
       </Grid>
