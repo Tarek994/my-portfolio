@@ -13,7 +13,7 @@ const Service = () => {
         padding: "1rem",
         borderRadius: "15px",
         width: "100%",
-        backgroundColor: "#d3d3d3",
+        backgroundColor: "#ffffff",
         display: "flex",
       }}
     >
