@@ -1,7 +1,7 @@
 import { Grid, Typography } from '@mui/material';
 import Button from '@mui/material/Button';
 import hero from './assets/hero.svg';
-
+import bg from  './assets/bg-hero.jpeg';
 
 const Hero = () => {
   return (
@@ -10,7 +10,11 @@ const Hero = () => {
         padding: '1rem',
         borderRadius: '15px',
         width: '100%',
-        backgroundColor: '#fff',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center center',
+        backgroundColor:"#fff",
+        backgroundImage:{bg},
         display: 'flex',
         margin:'1rem 0rem'
       }}
