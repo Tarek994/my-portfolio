@@ -12,6 +12,7 @@ import react from "./assets/react.png";
 import agile from "./assets/agile.png";
 import wordpress from "./assets/wordpress.png";
 import soft from "./assets/soft.jpg";
+import bg from "./assets/bg-hero.jpeg";
 
 const Skills = () => {
   return (
@@ -25,9 +26,13 @@ const Skills = () => {
         padding: "1rem",
         borderRadius: "15px",
         width: "100%",
-        backgroundColor: "#d3d3d3",
         display: "flex",
         margin: "1rem 0rem",
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center center',
+        backgroundColor:"#fff",
+        backgroundImage:{bg},
 
       }}
     >
