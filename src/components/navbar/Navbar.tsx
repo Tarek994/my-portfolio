@@ -44,8 +44,12 @@ const Navbar = () => {
                             },
                             fontFamily: 'ADLaM Display',
                             fontWeight: 800,
+                            backgroundColor:'#fff',
+                            color:'#fca311',
+                            padding: '10px',
+                            borderRadius:'10px',
                         }}>
-                            Tarek Ghali
+                            Tarek Ghali ;
                         </Typography>
                     </Box>
                 </Grid>
